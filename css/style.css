@@ -43,6 +43,7 @@ body{
 .fas{
     font-size: 15px;
     margin-right: 3px;
+    padding: 8px;
 }
 
 .button{
@@ -54,12 +55,9 @@ body{
 /*HEADER*/
 
 /*test*/
-header{
-    background-color:lightcoral;
-    height: 500px;
-}
 
-.container{
+/*menu top*/
+.container-top{
     background-color: lightgrey;
 }
 
@@ -95,4 +93,18 @@ header .login{
     padding: 6px 15px;
     color: white;
 }
+/*fine menu top*/
+
+/*menu bottom*/
+
+.container-bottom{
+    background-color: white;
+}
+
+/*fine menu bottom*/
+
+/*banner*/
+
+/*fine banner*/
+
 /*FINE HEADER*/
