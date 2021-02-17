@@ -37,6 +37,7 @@ body{
 .main-text{
     font-size: 10px;
     color: black;
+    line-height: 20px;
     
 }
 
@@ -50,7 +51,13 @@ body{
     background-color: orangered;
     border-radius: 5px;
     padding: 10px 15px;
+    color: white;
+    text-decoration: none;
 
+}
+
+a{
+    display: inline-block;
 }
 /*HEADER*/
 
@@ -104,6 +111,25 @@ header .login{
 /*fine menu bottom*/
 
 /*banner*/
+.banner{
+    position: relative;
+}
+.teaser{
+    position: absolute;
+    top: 10%;
+    left: 10%;   
+    width: 35%;
+    height: 100px;   
+}
+
+.banner h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.banner .button{
+   margin: 20px 20px 20px 0;
+}
 
 /*fine banner*/
 
