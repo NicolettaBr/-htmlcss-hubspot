@@ -11,22 +11,88 @@ img{
 
 /*COMMON*/
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*da usare nelle parti con larghezza 80% */
 .margin{
     width: 80%;
     margin: auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.col{
+    float: left;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.main-text{
+    font-size: 10px;
+    color: black;
+    
+}
+
+.fas{
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.button{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
 /*HEADER*/
 
+/*test*/
 header{
     background-color:lightcoral;
     height: 500px;
 }
 
-header .menu-top{
-    background-color: green;
-    height: 50px;
+.container{
+    background-color: lightgrey;
 }
 
+.col-left{
+    width: 50%;
+}
+
+.col-right{
+    width: 50%;
+}
+
+header .col-right{
+    text-align: right;
+}
+header .menu li{
+    display: inline-block;
+    margin: 20px 20px 20px 0;
+}
+
+header .menu a{
+    text-decoration: none;   
+}
+
+header .login{
+    background-color: white;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 6px 15px;
+    color: orangered;
+}
+
+.menu .button{
+    padding: 6px 15px;
+    color: white;
+}
 /*FINE HEADER*/
