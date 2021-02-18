@@ -20,6 +20,12 @@ body{
     margin: auto;
 }
 
+/*da usare nelle parti con larghezza 60%*/
+.margin-more{
+    width: 60%;
+    margin: auto;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -58,6 +64,24 @@ body{
 a{
     display: inline-block;
 }
+
+h2, p{
+    padding-bottom: 20px;
+}
+/*usare nelle sections*/
+
+.text-section{
+    text-align: center;
+}
+
+/*mettere poi background img, position ,widht e height box*/
+.img-section{
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
 /*HEADER*/
 
 /*test*/
@@ -150,5 +174,25 @@ header .row-box{
    border-top: 2px solid #494d52;
    border-bottom: 2px solid #494d52;
 }
+
 /*fine row-box*/
+
 /*FINE HEADER*/
+
+/*MAIN*/
+
+/*section offers*/
+
+main .offers{
+    background-color: #cef5ed;
+}
+
+.offers .img-section{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    background-image: url(../img/integrations_illustration.webp);
+    background-position: 100% 60%;
+}
+
+/*MAIN*/
