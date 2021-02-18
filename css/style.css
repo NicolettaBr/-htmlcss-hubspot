@@ -188,7 +188,7 @@ main .offers{
     background-color: #cef5ed;
 }
 
-.offers .img-section{
+.intro .img-section{
     width: 180px;
     height: 180px;
     margin: auto;
@@ -240,7 +240,7 @@ main .offers{
     margin: 20px 0;
 }
 
-.offers .text-info h3,p, h4, ul {
+.text-info h3,p, h4, ul {
     text-align: left;
 }
 /*non funziona fare la riga orizzontale cosi!!*/
@@ -261,7 +261,7 @@ main .offers{
     
 }
 
-.offers .offer-menu li{
+ li{
     display: inline-block;
     margin: 20px 0;
 }
@@ -279,27 +279,61 @@ main .offers{
 
 .colonne-info{
     margin-top: 30px;
-    
-    /*test poi toglila*/
-    background-color: coral;
-    height: 300px;
-    
 }
 
 .offers .colonne-info .col-left{
-    background-color: red;
     width: 30%;
+    background-color: white;
+    border-radius: 7px;
 }
 
 .offers .colonne-info .col-center{
-    background-color: red;
     width: 30%;
     margin: 0 5%;
+    background-color: white;
+    border-radius: 7px;
 }
 
 .offers .colonne-info .col-right{
-    background-color: red;
     width: 30%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+/*common a tutte le img delle colonne*/
+.sez-img{
+    width: 160px;
+    height: 160px;
+    margin: 20px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.col-left .sez-img{
+    background-image: url(../img/marketing-hub-free.svg);
+}
+
+.col-center .sez-img{
+    background-image: url(../img/sales-professional-illustration.svg);
+}
+
+.col-right .sez-img{
+    background-image: url(../img/service-hub-illustration.svg);
+}
+/*cerca di renderlo piu specifico */
+.offers .colonne-info .text-col h3, p, h4{
+    margin: auto;
+    padding: 10px;
+}
+
+.col-menu i{
+    color: orangered;
+}
+
+.text-col li{
+    display: block;
+    
 }
 
 /*FINE MAIN*/
