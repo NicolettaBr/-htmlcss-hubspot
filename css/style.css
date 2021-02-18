@@ -349,4 +349,21 @@ main .offers{
     /*test*/
     height: 400px;
 }
+
+.box-number{
+    padding: 30px 0 50px 0;
+    
+    
+}
+
+.box-number h2,
+.box-number p{
+    color: white;  
+}
+
+.margin-title{
+    margin: 0 5%;
+}
+
+
 /*FINE MAIN*/
