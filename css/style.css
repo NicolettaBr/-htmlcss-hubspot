@@ -145,15 +145,9 @@ header .login{
     height: 500px;
     background-image: url(../img/jumbotron.png);
     background-size: cover;
-    background-position: 100% 50%;
-   
+    background-position: 100% 50%;   
 }
-/*test*/
-.banner img{
-    height: 100%;
-    object-fit: cover;
- 
-}
+
 .teaser{
     position: absolute;
     top: 10%;
@@ -281,5 +275,31 @@ main .offers{
     padding-left: 0;
 }
 
+/*colonne info*/
+
+.colonne-info{
+    margin-top: 30px;
+    
+    /*test poi toglila*/
+    background-color: coral;
+    height: 300px;
+    
+}
+
+.offers .colonne-info .col-left{
+    background-color: red;
+    width: 30%;
+}
+
+.offers .colonne-info .col-center{
+    background-color: red;
+    width: 30%;
+    margin: 0 5%;
+}
+
+.offers .colonne-info .col-right{
+    background-color: red;
+    width: 30%;
+}
 
 /*FINE MAIN*/
