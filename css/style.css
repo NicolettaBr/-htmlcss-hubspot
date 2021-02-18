@@ -14,6 +14,10 @@ img{
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+ul{
+    text-align: left;
+}
 /*da usare nelle parti con larghezza 80% */
 .margin{
     width: 80%;
@@ -100,9 +104,10 @@ h2, p{
     width: 50%;
 }
 
-header .col-right{
+header .col-right ul{
     text-align: right;
 }
+
 header .menu li{
     display: inline-block;
     margin: 20px 20px 20px 0;
@@ -199,6 +204,10 @@ main .offers{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.intro p{
+    text-align: center;
+}
 /*fine intro*/
 
 /*box-info*/
@@ -206,11 +215,10 @@ main .offers{
 .offers .box-info{
     background-color: white;
     border-radius: 7px;
-    padding: 30px;
-    /*test*/
-    height: 200px;
+    padding: 40px;
 }
 
+/*larghezza colonne non uguali*/
 .offers .col-left{
       width: 20%; 
 }
@@ -218,7 +226,7 @@ main .offers{
 .offers .col-right{
       width: 80%;
 }
- 
+ /*common offers*/
 .offers .col{
     text-align: center;
 }
@@ -226,4 +234,25 @@ main .offers{
 .offers a{
     margin: 20px;
 }
+
+/*text-info*/
+
+.offers .text-info{
+    margin: 0 60px;
+}
+
+.offers h3{
+    margin: 20px;
+}
+
+.offers .text-info h3,p, span, ul {
+    text-align: left;
+}
+/*non funziona fare la riga orizzontale cosi!!*/
+.text-info .row{
+    height: 1px;
+    border-top: 1px solid black;
+}
+
+
 /*FINE MAIN*/
