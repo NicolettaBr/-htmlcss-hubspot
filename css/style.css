@@ -59,6 +59,7 @@ body{
     padding: 10px 15px;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 a{
@@ -75,7 +76,7 @@ h2, p{
 }
 
 /*mettere poi background img, position ,widht e height box*/
-.img-section{
+.img-box{
     margin: auto;
     background-repeat: no-repeat;
     background-size: contain;
@@ -91,11 +92,11 @@ h2, p{
     background-color: lightgrey;
 }
 
-.col-left{
+header.col-left{
     width: 50%;
 }
 
-.col-right{
+header.col-right{
     width: 50%;
 }
 
@@ -183,6 +184,7 @@ header .row-box{
 
 /*section offers*/
 
+/*intro*/
 main .offers{
     background-color: #cef5ed;
 }
@@ -193,6 +195,29 @@ main .offers{
     margin: auto;
     background-image: url(../img/integrations_illustration.webp);
     background-position: 100% 60%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+/*fine intro*/
+
+/*box-info*/
+
+.offers .box-info{
+    background-color: white;
+    border-radius: 7px;
+    padding: 30px;
+    /*test*/
+    height: 200px;
+}
+
+.col-left{
+      width: 20%;   
+}
+
+.col-right{
+      width: 80%;
+}
+
 
 /*MAIN*/
