@@ -92,11 +92,11 @@ h2, p{
     background-color: lightgrey;
 }
 
-header.col-left{
+.col-left{
     width: 50%;
 }
 
-header.col-right{
+.col-right{
     width: 50%;
 }
 
@@ -211,13 +211,19 @@ main .offers{
     height: 200px;
 }
 
-.col-left{
-      width: 20%;   
+.offers .col-left{
+      width: 20%; 
 }
 
-.col-right{
+.offers .col-right{
       width: 80%;
 }
+ 
+.offers .col{
+    text-align: center;
+}
 
-
-/*MAIN*/
+.offers a{
+    margin: 20px;
+}
+/*FINE MAIN*/
