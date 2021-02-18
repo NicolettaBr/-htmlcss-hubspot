@@ -186,6 +186,7 @@ header .row-box{
 /*intro*/
 main .offers{
     background-color: #cef5ed;
+    padding-bottom: 30px;
 }
 
 .intro .img-section{
@@ -194,7 +195,6 @@ main .offers{
     margin: auto;
     background-image: url(../img/integrations_illustration.webp);
     background-position: 100% 60%;
-    margin: auto;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -342,5 +342,11 @@ main .offers{
 
 /*fine section offers*/
 
+/*section numbers*/
 
+.numbers{
+    background-color: #39bbdb;
+    /*test*/
+    height: 400px;
+}
 /*FINE MAIN*/
