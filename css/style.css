@@ -303,6 +303,14 @@ main .offers{
     border-radius: 7px;
 }
 
+.divider{
+    display: inline-block;
+    height: 5px;
+    width: 80%;
+    color: white;
+    border-bottom: 1px solid black;
+    margin: 10px auto;
+}
 
 /*common a tutte le img delle colonne*/
 .sez-img{
@@ -405,6 +413,7 @@ main .offers{
     color: white;
     font-size: 30px; 
 }
+
  /*row table*/
 .row-table-top .col-prima .img-table{
     background-image: url(../img/homepage_community_agency.svg);
@@ -562,6 +571,7 @@ main .partners{
 }
 
 /*colonna left*/
+
 .motivational-box .col-left{
     text-align: left;
     width: 40%; 
@@ -603,7 +613,6 @@ main .partners{
 /*footer menu*/
 footer{
     background-color: #3d4c70;
-  
 }
 
 .footer-menu{
@@ -612,22 +621,18 @@ footer{
 
 .footer-menu .col-prima{
     width: 25%;
-    
 }
 
 .footer-menu .col-seconda{
-    width: 25%;
-    
+    width: 25%; 
 }
 
 .footer-menu .col-terza{
-    width: 25%;
-    
+    width: 25%; 
 }
 
 .footer-menu .col-quarta{
-    width: 25%;
-   
+    width: 25%; 
 }
 
 .footer-menu h5{
@@ -672,19 +677,16 @@ footer .box-languages li{
 
 .credits{
     margin-top: 50px;
+    padding-bottom: 30px;
 }
 
 .credits .col-left{
     text-align: left;
-  
-    
 }
 
 .credits .col-right{
     text-align: right;
-    
     position: relative;
-    
 }
 
 .col-left .img-logo-footer{
@@ -694,7 +696,6 @@ footer .box-languages li{
     background-repeat: no-repeat;
     background-size: contain;
     margin: 10px 0 10px 0;
-
 }
 
 .copiright{
@@ -706,8 +707,8 @@ footer .box-languages li{
     top: 0;
     right: 0;
     width: 30%;
-    
 }
+
 .policy .col{
     float: right;
 }
@@ -717,6 +718,7 @@ footer .box-languages li{
     color: white;
     text-align: right;
 }
+
 /*fine sezione credits*/
 
 /*FINE FOOTER*/
