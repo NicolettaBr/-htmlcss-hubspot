@@ -470,34 +470,28 @@ main .offers{
 
 main .partners{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .partners{
     background-color: white;
     height: 300px;
 }
 
-
 /*colonna left*/
 .box-partner .col-left{
     width: 30%;
-    text-align: center;
-    
 }
 
 .box-partner .col-right{
     width: 70%;
-    
 }
 
 .box-partner h3{
     font-size: 30px;
-    padding: 10px;
-   
+    padding: 10px 0;
 }
 
-.box-partner ul{
-    text-align: center;
-}
 
 .box-partner .menu-partners li{
     display: block;
@@ -524,7 +518,6 @@ main .partners{
 .row-partners-top .col-terza .img-partners{
     background-image: url(../img/g2crowd-logo.webp);
     background-position: 100% 100%;
-   
 }
 
 .row-partners-top .col-quarta .img-partners{
@@ -547,8 +540,7 @@ main .partners{
 .row-partners-bottom .col-terza .img-partners{
     background-image: url(../img/classpass-logo.webp);
     background-position: 111% 40%;
-    background-size: 80px;
-   
+    background-size: 80px;  
 }
 
 .row-partners-bottom .col-quarta .img-partners{
@@ -561,8 +553,49 @@ main .partners{
     height: 20px;
     margin: 5px auto;
     background-repeat: no-repeat;
-    background-size: contain;
-    
-    
+    background-size: contain;  
 }
+/*fine section numbers*/
+
+/*section motivational*/
+
+.motivational-box{
+    padding: 40px 0 30px 0;
+}
+
+/*colonna left*/
+.motivational-box .col-left{
+    text-align: left;
+    width: 40%; 
+}
+
+.motivational-box .col-right{
+    position: relative;
+    width: 60%;  
+}
+
+.motivational-box h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.motivational-box .button{
+    margin-bottom: 20px;
+}
+
+/*colonna right*/
+
+.motivational-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 270px;
+    background-image: url(../img/woman.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*fine section motivational*/
+
 /*FINE MAIN*/
