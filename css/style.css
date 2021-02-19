@@ -470,12 +470,10 @@ main .offers{
 
 main .partners{
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .partners{
-    background-color: white;
-    height: 300px;
+    background-color: white;  
 }
 
 /*colonna left*/
@@ -599,3 +597,58 @@ main .partners{
 /*fine section motivational*/
 
 /*FINE MAIN*/
+
+/*FOOTER*/
+
+footer{
+    background-color: #3d4c70;
+    /*test*/
+    height: 300px;
+}
+
+.footer-menu{
+    padding: 30px 0;
+}
+
+.footer-menu .col-prima{
+    width: 25%;
+    
+}
+
+.footer-menu .col-seconda{
+    width: 25%;
+    
+}
+
+.footer-menu .col-terza{
+    width: 25%;
+    
+}
+
+.footer-menu .col-quarta{
+    width: 25%;
+   
+}
+
+.footer-menu h5{
+    color: white;
+    padding: 20px 0 5px 0;
+}
+
+.footer-menu .list-footer li{
+    display: block;
+    line-height: 5px;
+    color: white;
+}
+
+.list-footer .button{
+    background-color: white;
+    color: #3d4c70;
+}
+
+.list-footer .sublist-footer li{
+    display: inline-block;
+    margin: 0 15px 0 0;
+    font-size: 15px;
+}
+/*FINE FOOTER*/
