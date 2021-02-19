@@ -668,4 +668,55 @@ footer .box-languages li{
 
 /*fine box languages*/
 
+/*sezione credits*/
+
+.credits{
+    margin-top: 50px;
+}
+
+.credits .col-left{
+    text-align: left;
+  
+    
+}
+
+.credits .col-right{
+    text-align: right;
+    
+    position: relative;
+    
+}
+
+.col-left .img-logo-footer{
+    background-image: url(../img/hslogo_gray.svg);
+    width: 25%;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px 0 10px 0;
+
+}
+
+.copiright{
+    color: white;
+}
+
+.policy{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    
+}
+.policy .col{
+    float: right;
+}
+
+.policy .col-left,
+.policy .col-right{
+    color: white;
+    text-align: right;
+}
+/*fine sezione credits*/
+
 /*FINE FOOTER*/
