@@ -392,8 +392,8 @@ main .offers{
 }
 
 .img-table{
-    width: 70px;
-    height: 70px;
+    width: 110px;
+    height: 50px;
     margin: auto;
     background-repeat: no-repeat;
     background-size: contain;
@@ -408,35 +408,52 @@ main .offers{
  /*row table*/
 .row-table-top .col-prima .img-table{
     background-image: url(../img/homepage_community_agency.svg);
+    background-size: 50px;
+    background-position: 56% 100%;
 }
 
 .row-table-top .col-seconda .img-table{
     background-image: url(../img/homepage_community_blog.svg);
+    background-size: 80px;
+    background-position: 54% 100%;
+   
 }
 
 .row-table-top .col-terza .img-table{
     background-image: url(../img/homepage_community_academy.svg);
+    background-size: 105px;
+    background-position: 123% 85%;
 }
 
 .row-table-top .col-quarta .img-table{
     background-image: url(../img/homepage_community_inbound.svg);
+    background-size: 100px;
+    background-position: 100% 86%;
 }
 
 /*bottom table*/
 .row-table-bottom .col-prima .img-table{
     background-image: url(../img/homepage_community_connect.svg);
+    background-size: 80px;
+    background-position: 65% 100%;
 }
 
 .row-table-bottom  .col-seconda .img-table{
     background-image: url(../img/homepage_community_globe.svg);
+    background-size: 40px;
+    background-position: 51% 100%;
 }
 
 .row-table-bottom  .col-terza .img-table{
     background-image: url(../img/homepage_community_followers.svg);
+    background-size: 50px;
+    background-position: 43% 100%;
 }
 
 .row-table-bottom  .col-quarta .img-table{
     background-image: url(../img/growthhub-white-small-1.svg);
+    background-size: 100px;
+    background-position: 75% 100%;
 }
 
 .row-table-bottom .block-table{
@@ -524,7 +541,7 @@ main .partners{
 
 .row-partners-bottom .col-seconda .img-partners{
     background-image: url(../img/wistia_logo.webp);
-    background-position: 100% 90%;
+    background-position: 100% 100%;
 }
 
 .row-partners-bottom .col-terza .img-partners{
