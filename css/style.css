@@ -403,11 +403,19 @@ main .offers{
     color: white;
     font-size: 30px; 
 }
-/*invece dei numeri prova ad usare first child second child o simile*/
+/*invece dei numeri prova ad usare first child second child o simile
 .block-table .one{
     background-image: url(../img/homepage_community_agency.svg);
 }
+*/
 
+.col-prima .img-table:first-child{
+    background-image: url(../img/homepage_community_agency.svg);
+}
+
+.col-prima .img-table:last-child{
+    background-color: red;
+}
 
 
 /*FINE MAIN*/
