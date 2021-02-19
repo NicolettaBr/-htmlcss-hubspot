@@ -346,6 +346,7 @@ main .offers{
 
 .numbers{
     background-color: #39bbdb;
+    padding-bottom: 30px;
 }
 
 .box-number{
@@ -363,18 +364,22 @@ main .offers{
 }
 
 .table .col-prima{
+    text-align: center;
     width: 25%;  
 }
 
 .table .col-seconda{
+    text-align: center;
     width: 25%;  
 }
 
 .table .col-terza{
+    text-align: center;
     width: 25%;
 }
 
 .table .col-quarta{
+    text-align: center;
     width: 25%;
 }
 
@@ -442,23 +447,105 @@ main .offers{
     border-right: none;
 }
 
+/*fine section numbers*/
 
+/*section partners*/
 
-
-
-/*invece dei numeri prova ad usare first child second child o simile
-.block-table .one{
-    background-image: url(../img/homepage_community_agency.svg);
+main .partners{
+    padding-top: 30px;
+}
+.partners{
+    background-color: white;
+    height: 300px;
 }
 
 
-.col-prima .img-table:first-child{
-    background-image: url(../img/homepage_community_agency.svg);
+/*colonna left*/
+.box-partner .col-left{
+    width: 30%;
+    text-align: center;
+    
 }
 
-.col-prima .block-table:last-child .img-table:last-child{
-    background-color: red;
+.box-partner .col-right{
+    width: 70%;
+    
 }
-*/
 
+.box-partner h3{
+    font-size: 30px;
+    padding: 10px;
+   
+}
+
+.box-partner ul{
+    text-align: center;
+}
+
+.box-partner .menu-partners li{
+    display: block;
+    margin: auto;
+}
+
+/*colonna right*/
+
+/*riga top*/
+.row-partners-top{
+    padding: 15px;
+}
+
+.row-partners-top .col-prima .img-partners{
+    background-image: url(../img/atlassian-horizontal-blue.webp);
+    background-position: 100% 90%;
+}
+
+.row-partners-top .col-seconda .img-partners{
+    background-image: url(../img/doordash_owler.webp);
+    background-position: 100% 90%;
+}
+
+.row-partners-top .col-terza .img-partners{
+    background-image: url(../img/g2crowd-logo.webp);
+    background-position: 100% 100%;
+   
+}
+
+.row-partners-top .col-quarta .img-partners{
+    background-image: url(../img/purple-logo.webp);
+    background-position: 100% 100%;
+}
+
+/*riga bottom*/
+
+.row-partners-bottom .col-prima .img-partners{
+    background-image: url(../img/subaru_logo.webp);
+    background-position: 90% 100%;
+}
+
+.row-partners-bottom .col-seconda .img-partners{
+    background-image: url(../img/wistia_logo.webp);
+    background-position: 100% 90%;
+}
+
+.row-partners-bottom .col-terza .img-partners{
+    background-image: url(../img/classpass-logo.webp);
+    background-position: 111% 40%;
+    background-size: 80px;
+   
+}
+
+.row-partners-bottom .col-quarta .img-partners{
+    background-image: url(../img/vmware_logo_gry_rgb_300dpi.webp);
+    background-position: 100% 100%;
+}
+
+.img-partners{
+    width: 100px;
+    height: 20px;
+    margin: 5px auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
 /*FINE MAIN*/
