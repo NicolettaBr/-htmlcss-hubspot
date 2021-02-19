@@ -349,7 +349,7 @@ main .offers{
 }
 
 .box-number{
-    padding: 30px 0 50px 0; 
+    padding: 30px 0 30px 0; 
 }
 
 .box-number h2,
@@ -367,23 +367,18 @@ main .offers{
 }
 
 .table .col-seconda{
-    width: 25%;
-    /*test poi togli colori*/
-    background-color: pink;
+    width: 25%;  
 }
 
 .table .col-terza{
     width: 25%;
-    /*test poi togli colori*/
-    background-color: green;
 }
 
 .table .col-quarta{
     width: 25%;
-    /*test poi togli colori*/
-    background-color: cyan;
 }
 
+/* common della tabella*/
 .block-table{
     padding: 30px 30px 15px 30px ;
     text-align: center;
@@ -392,30 +387,78 @@ main .offers{
 }
 
 .img-table{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin: auto;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 20px;
+    
 }
 
 .block-table .number-table{
     color: white;
     font-size: 30px; 
 }
+ /*row table*/
+.row-table-top .col-prima .img-table{
+    background-image: url(../img/homepage_community_agency.svg);
+}
+
+.row-table-top .col-seconda .img-table{
+    background-image: url(../img/homepage_community_blog.svg);
+}
+
+.row-table-top .col-terza .img-table{
+    background-image: url(../img/homepage_community_academy.svg);
+}
+
+.row-table-top .col-quarta .img-table{
+    background-image: url(../img/homepage_community_inbound.svg);
+}
+
+/*bottom table*/
+.row-table-bottom .col-prima .img-table{
+    background-image: url(../img/homepage_community_connect.svg);
+}
+
+.row-table-bottom  .col-seconda .img-table{
+    background-image: url(../img/homepage_community_globe.svg);
+}
+
+.row-table-bottom  .col-terza .img-table{
+    background-image: url(../img/homepage_community_followers.svg);
+}
+
+.row-table-bottom  .col-quarta .img-table{
+    background-image: url(../img/growthhub-white-small-1.svg);
+}
+
+.row-table-bottom .block-table{
+    border-bottom: none;
+}
+
+.col-quarta .block-table{
+    border-right: none;
+}
+
+
+
+
+
 /*invece dei numeri prova ad usare first child second child o simile
 .block-table .one{
     background-image: url(../img/homepage_community_agency.svg);
 }
-*/
+
 
 .col-prima .img-table:first-child{
     background-image: url(../img/homepage_community_agency.svg);
 }
 
-.col-prima .img-table:last-child{
+.col-prima .block-table:last-child .img-table:last-child{
     background-color: red;
 }
-
+*/
 
 /*FINE MAIN*/
