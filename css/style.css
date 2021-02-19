@@ -600,10 +600,10 @@ main .partners{
 
 /*FOOTER*/
 
+/*footer menu*/
 footer{
     background-color: #3d4c70;
-    /*test*/
-    height: 300px;
+  
 }
 
 .footer-menu{
@@ -651,4 +651,21 @@ footer{
     margin: 0 15px 0 0;
     font-size: 15px;
 }
+/*fine footer menu*/
+
+/*box languages*/
+
+.menu-languages{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+footer .box-languages li{
+    color: white;
+    margin: 15px 10px;
+    
+}
+
+/*fine box languages*/
+
 /*FINE FOOTER*/
